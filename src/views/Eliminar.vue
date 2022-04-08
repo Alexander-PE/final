@@ -51,7 +51,7 @@ export default {
       const array = await response.json();
       const x = await array.find((item) => item.id == this.dato.id);
       await this.EnviarDatos(
-        "http://127.0.0.1:8000/Peliculas/Eliminar",
+        "https://fastapi-crud-final.herokuapp.com/Peliculas/Eliminar",
         "DELETE",
         x
       );
