@@ -66,7 +66,7 @@ export default {
             if(this.pelicula.Nombre == "" || this.pelicula.Fecha == "" || this.pelicula.Comentario == "" || this.pelicula.Actores == "" || this.pelicula.Director == "" || this.pelicula.Trailer == "" || this.pelicula.Imagen == ""){
                 alert("No puede dejar campos vacios");
             }else{
-                await this.EnviarDatos(`http://127.0.0.1:8000/Peliculas/Agregar`, 'POST', this.pelicula);
+                await this.EnviarDatos(`https://fastapi-crud-final.herokuapp.com/Peliculas/Agregar`, 'POST', this.pelicula);
                 this.$router.push("/admin");
             }
         },

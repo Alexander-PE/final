@@ -78,11 +78,11 @@ export default {
         },
         async cargarDatos() {
 
-            const response = await fetch(`http://127.0.0.1:8000/Peliculas/Lista`);
+            const response = await fetch(`https://fastapi-crud-final.herokuapp.com/Peliculas/Lista`);
             const array = await response.json();
             const x = await array.find((item) => item.id == this.pelicula.id);
             
-            
+
             document.getElementById('Nombre').value = x.Nombre;
             document.getElementById('Fecha').value = x.Fecha;
             document.getElementById('Comentario').value = x.Comentario;
@@ -96,7 +96,7 @@ export default {
             if(this.pelicula.Nombre == "" || this.pelicula.Fecha == "" || this.pelicula.Comentario == "" || this.pelicula.Actores == "" || this.pelicula.Director == "" || this.pelicula.Trailer == "" || this.pelicula.Imagen == ""){
                 alert("No puede dejar campos vacios");
             }else{
-                await this.EnviarDatos(`http://127.0.0.1:8000/Peliculas/Actualizar`, 'PUT', this.pelicula);
+                await this.EnviarDatos(`https://fastapi-crud-final.herokuapp.com/Peliculas/Actualizar`, 'PUT', this.pelicula);
                 this.$router.push("/admin");
             }
         },

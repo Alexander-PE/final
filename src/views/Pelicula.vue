@@ -33,7 +33,7 @@ export default {
   methods: {
     async consumirApi() {
       try {
-        const response = await fetch(`http://127.0.0.1:8000/Peliculas/Lista`);
+        const response = await fetch(`https://fastapi-crud-final.herokuapp.com/Peliculas/Lista`);
         const array = await response.json();
         const x = await array.find(
           (item) => item.id == this.$route.params.id
