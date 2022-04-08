@@ -1,30 +1,53 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div class="navbar navbar-dark bg-dark">
+    <router-link to="/" class="logo">Moviepedia</router-link>
+    <div class="d-flex">
+
+      <router-link
+        v-show="$route.name=='Home' || $route.path.includes('/about')"
+        to="/login"
+        class="btn btn-dark"
+        >Log In</router-link>
+
+    </div>
+    
   </div>
-  <router-view/>
+  <router-view />
 </template>
 
+
+<script>
+export default {
+  name: "App",
+  data() {
+    return {
+      arr: ['Admin', 'Eliminar', 'Actualizar', 'Agregar'],
+    }
+  },
+};
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+
+.logo {
+  margin-left: 10px;
+  font-family: "Bebas Neue", cursive;
+  font-weight: normal;
+  font-size: 1.5em;
+  margin-left: 30px;
+  color: red;
 }
 
-#nav {
-  padding: 30px;
+.logo:hover {
+  color: red;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+.navbar {
+  height: 80px;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+.btn {
+  margin-right: 30px;
+  font-size: 15px;
 }
 </style>
