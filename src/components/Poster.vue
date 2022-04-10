@@ -2,11 +2,11 @@
     <div class="poster">
 
         <div class="container">
-            <h3 class="titulo">Baby: el aprendiz del crimen</h3>
-            <p class="descripcion">Baby es un chofer especializado en fugas que, enamorado, pretende dejar la vida criminal y empezar de cero con la mujer que ama. Cuando el jefe de una banda de gánsters le obliga a trabajar para él y la operación fracasa, su vida y la de su chica pasan a estar en peligro.</p>
+            <h3 class="titulo">Harry Potter y las reliquias de la muerte II</h3>
+            <p class="descripcion">Harry, Ron y Hermione compiten contra el tiempo para destruir los Horrocruxes restantes. Mientras tanto, los estudiantes y profesores se unen para defender Hogwarts contra Lord Voldemort y los mortífagos.</p>
             
-            <a href="https://www.youtube.com/watch?v=D9YZw_X5UzQ" class="boton"><i class="bi bi-play-fill"></i>Reproducir</a>
-            <router-link class="boton" to="/about/1"><i class="bi bi-info-circle"></i>Informacion</router-link>
+            <a href="https://www.youtube.com/watch?v=M1me0fEgYxY" class="boton"><i class="bi bi-play-fill"></i>Reproducir</a>
+            <router-link class="boton" to="/about/2"><i class="bi bi-info-circle"></i>Informacion</router-link>
         </div>
 
      </div>
@@ -20,9 +20,9 @@ export default {
 
 <style scoped>
   .poster{
-      background-image: linear-gradient(rgba(0, 0, 0, .50) 0% , rgba(0,0,0, .50) 100%), url(../assets/Poster.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, .50) 0% , rgba(0,0,0, .50) 100%), url(https://i.blogs.es/40f70e/harry-potter/1366_2000.jpeg);
       height: 550px;
-      background-size: 100% 100%;
+      background-size: 100% 110%;
       background-repeat: no-repeat;
       color: white;
       display:flex;

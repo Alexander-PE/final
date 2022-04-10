@@ -83,7 +83,7 @@ body {
 .ticket-container {
 	background: #fff;
 	width: 270px;
-	height: 440px;
+	height: 459px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;

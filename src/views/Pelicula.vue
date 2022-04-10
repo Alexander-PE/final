@@ -8,15 +8,13 @@
           <div class="title1">{{pelicula[0]}}</div>
           <div class="title2">Director: {{pelicula[3]}}</div>
           <div class="likes">Actores: {{pelicula[4]}}</div>
-        </div>
 
-        <div class="description">
-        <div class="column2">
+          <div class="description">
           <p>
             {{pelicula[2]}}
           </p>
-        </div>
       </div>
+        </div>
       </div>
     </div>
   </div>
@@ -97,7 +95,7 @@ body {
 .hero {
   height: 342px;  
   margin:0;
-  position: relative;
+  position: fixed;
   background: transparent;
   overflow: hidden;
   z-index:1;
@@ -116,42 +114,37 @@ body {
     color: white;
     font-size: 44px;
     line-height: 50px;
-    margin-bottom: 13px;
-    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .title2 {    
     color: #C7C1BA;
     font-size: 23px;    
     font-weight: 300;
-    position: absolute;
-    bottom: 58%;
+    margin-bottom: 15px;
+    bottom: 48%;
   }
 
 .details {
-  padding: 50px 0 0 280px;
+  padding: 40px 0 0 280px;
 }
 
 .likes{
-  position: absolute;
-  bottom: 47%;
+  bottom: 38%;
+  margin-bottom: 15px;
 }
 
 .description {
   position: absolute;
-  bottom: 15%;
-  left: 26%;
+  width: 70%;
   font-size: 16px;
   line-height: 26px;
+  margin-bottom: 15px;
   color: #B1B0AC;
 }
 
 
-.column2 {
-  padding-left: 41px;
-  margin-left: 15px;
-  float: left;
-}
 
 img{
   width: 200px;
