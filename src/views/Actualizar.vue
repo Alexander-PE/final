@@ -82,7 +82,14 @@ export default {
             const array = await response.json();
             const x = await array.find((item) => item.id == this.pelicula.id);
             
-
+            this.pelicula.Nombre = x.Nombre;
+            this.pelicula.Fecha = x.Fecha;
+            this.pelicula.Comentario = x.Comentario;
+            this.pelicula.Actores = x.Actores;
+            this.pelicula.Director = x.Director;
+            this.pelicula.Trailer = x.Trailer;
+            this.pelicula.Imagen = x.Imagen;
+            
             document.getElementById('Nombre').value = x.Nombre;
             document.getElementById('Fecha').value = x.Fecha;
             document.getElementById('Comentario').value = x.Comentario;
