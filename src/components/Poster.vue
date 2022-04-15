@@ -5,7 +5,7 @@
             <h3 class="titulo">Harry Potter y las reliquias de la muerte II</h3>
             <p class="descripcion">Harry, Ron y Hermione compiten contra el tiempo para destruir los Horrocruxes restantes. Mientras tanto, los estudiantes y profesores se unen para defender Hogwarts contra Lord Voldemort y los mortífagos.</p>
             
-            <a href="https://www.youtube.com/watch?v=M1me0fEgYxY" class="boton"><i class="bi bi-play-fill"></i>Reproducir</a>
+            <a href="https://www.youtube.com/watch?v=M1me0fEgYxY" target="_blank" class="boton"><i class="bi bi-play-fill"></i>Reproducir</a>
             <router-link class="boton" to="/about/2"><i class="bi bi-info-circle"></i>Informacion</router-link>
         </div>
 

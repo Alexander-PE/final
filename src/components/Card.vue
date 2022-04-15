@@ -3,7 +3,7 @@
 	<div class="hero-container">
 		<div class="main-container">
 			<div class="poster-container">
-				<a href="#"><img :src="imagen" class="poster" /></a>
+				<a href="#" target="_blank"><img :src="imagen" class="poster" /></a>
 			</div>
 			<div class="ticket-container">
 				<div class="ticket__content">

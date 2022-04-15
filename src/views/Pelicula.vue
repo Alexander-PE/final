@@ -1,7 +1,7 @@
 <template>
   <div class="movie-card">
     <div class="container">
-      <a :href="pelicula[5]"><img :src="pelicula[6]"  class="cover"/></a>
+      <a :href="pelicula[5]" target="_blank"><img :src="pelicula[6]"  class="cover"/></a>
 
       <div class="hero">
         <div class="details">

@@ -1,6 +1,6 @@
 <template>
   <div class="navbar navbar-dark bg-dark">
-    <router-link to="/" class="logo">Moviepedia</router-link>
+    <router-link to="/" class="logo">movies</router-link>
     <div class="d-flex">
 
       <router-link
