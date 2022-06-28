@@ -1,18 +1,21 @@
 {
-    "Nombre": "Harry Potter And The Deathly Hallows II",
-    "Fecha": "2011",
-    "Comentario": "Harry, Ron y Hermione compiten contra el tiempo para destruir los Horrocruxes restantes. Mientras tanto, los estudiantes y profesores se unen para defender Hogwarts contra Lord Voldemort y los mortífagos.",
-    "Director": "David Yates",
-    "Actores": "Daniel Radcliffe, Emma Watson, Rupert Grint, Tom Felton, etc",
-    "Trailer": "https://www.youtube.com/watch?v=AX85BTPv9KY",
-    "Imagen": "https://www.themoviedb.org/t/p/original/fu4uHS9eyBrzRWp697s3G01OO17.jpg"
+    Harry Potter And The Deathly Hallows II,
+    2011,
+    Harry, Ron y Hermione compiten contra el tiempo para destruir los Horrocruxes restantes. 
+    Mientras tanto, los estudiantes y profesores se unen para defender Hogwarts contra Lord Voldemort y los mortífagos.,
+    Daniel Radcliffe, Emma Watson, Rupert Grint, Tom Felton, etc,
+    David Yates,
+    https://www.youtube.com/watch?v=AX85BTPv9KY,
+    https://www.themoviedb.org/t/p/original/fu4uHS9eyBrzRWp697s3G01OO17.jpg
 },
 {
-    "Nombre": "Los Increibles",
-    "Fecha": "2004",
-    "Comentario": "Obligado a adoptar una identidad civil y atrapado en un trabajo administrativo, el Sr. Increíble ansía volver a la acción. Cuando el malvado Síndrome lo atrae a una trampa, su familia se las ingenia para salvarlo.",
-    "Director": "Brad Bird",
-    "Actores": "Brad Bird, Holly Hunter, Samuel L. Jackson, Sarah Vowell, etc",
-    "Trailer": "https://www.youtube.com/watch?v=x_IWq20rDAw",
-    "Imagen": "https://arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/MLGIEPLY3BHFFKDHAJKLDNWHI4.jpg"
+    Los Increibles,
+    2004,
+    Obligado a adoptar una identidad civil y atrapado en un trabajo administrativo, el Sr. 
+    Increíble ansía volver a la acción. Cuando el malvado Síndrome lo atrae a una trampa, su familia 
+    se las ingenia para salvarlo.,
+    Brad Bird,
+    Brad Bird, Holly Hunter, Samuel L. Jackson, Sarah Vowell, etc,
+    https://www.youtube.com/watch?v=x_IWq20rDAw,
+    https://arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/MLGIEPLY3BHFFKDHAJKLDNWHI4.jpg
 }
